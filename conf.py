@@ -66,7 +66,7 @@ extlinks = {
     'howto': ('/documentation/howto/%s', ''),
     'tutorial': (f'/documentation/{LIBRARY_VERSION}/tutorials/tuturial%s/index', ''),
     'hh_tutorial': (f'/documentation/{LIBRARY_VERSION}/tutorials/hh_tuturial%s/index', ''),
-    'usecases': ('/documentation/common_use_cases/%s', ''),
+    'usecases': (f'/documentation/{LIBRARY_VERSION}/tutorials/common_use_cases/%s', ''),
 }
 
 
