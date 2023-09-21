@@ -106,9 +106,9 @@ If you're seeing an issue with this code, it's because you need to use the :code
 
     **API** :api:`Annotator::setModel function<Annotator?fName=setModel>`
 
-    **How-to** :ref:`Annotate a model<annotate_model>`
+    **How-to** :howto:`Annotate a model <annotate_model>`
 
-    **Common users** :ref:`Annotation tool developer<users_annotation_tool_dev>`
+    **Common use case** :usecases:`Annotation tool developer <users_annotation_tool_dev>`
         
 
 .. _ANNOTATOR_NULL_MODEL:
@@ -123,11 +123,11 @@ This code is generated when the :code:`Annotator` is given a null pointer instea
 
     **API** :api:`Annotator::setModel function<Annotator?fName=setModel>`
 
-    **How-to** :ref:`Annotate a model<annotate_model>`
+    **How-to** :howto:`Annotate a model <annotate_model>`
 
-    **Tutorial** :ref:`Tutorial 5: Annotation<tutorial5>`
+    **Tutorial** :tutorial:`Tutorial 5: Annotation<5>`
 
-    **Common users** :ref:`Annotation tool developer<users_annotation_tool_dev>`
+    **Common use case** :usecases:`Annotation tool developer <users_annotation_tool_dev>`
 
 
 .. _ANNOTATOR_ID_NOT_FOUND:
@@ -142,11 +142,11 @@ When the :code:`Model` that was submitted to this :code:`Annotator` does not hav
 
     **API** :api:`Annotator::item function<Annotator?fName=item>` (or any of the type-specific retrieval functions)
 
-    **How-to** :ref:`Annotate a model<annotate_model>`
+    **How-to** :howto:`Annotate a model <annotate_model>`
 
-    **Tutorial** :ref:`Tutorial 5: Annotation<tutorial5>`
+    **Tutorial** :tutorial:`Tutorial 5: Annotation <5>`
 
-    **Common users** :ref:`Annotation tool developer<users_annotation_tool_dev>`
+    **Common use case** :usecases:`Annotation tool developer <users_annotation_tool_dev>`
 
 .. container:: nb
 
@@ -164,13 +164,13 @@ When non-unique id strings are encountered, a warning with this code is created.
 
 .. container:: shortlist
 
-    **How-to** :ref:`Handle duplicated ID attributes<handle_duplicated_id_attributes>`
+    **How-to** :howto:`Handle duplicated ID attributes <handle_duplicated_id_attributes>`
 
-    **How-to** :ref:`Annotate a model<annotate_model>`
+    **How-to** :howto:`Annotate a model <annotate_model>`
 
-    **Tutorial** :ref:`Tutorial 5: Annotation<tutorial5>`
+    **Tutorial** :tutorial:`Tutorial 5: Annotation<5>`
 
-    **Common users** :ref:`Annotation tool developer<users_annotation_tool_dev>`
+    **Common use case** :usecases:`Annotation tool developer <users_annotation_tool_dev>`
 
 
 .. _ANNOTATOR_INCONSISTENT_TYPE:
@@ -210,7 +210,7 @@ The expected pairings are shown below.
 Importer codes
 ==============
 
-For complete descriptions of all aspects of the :code:`Importer`, please see the tutorials and examples available at the :ref:`Import debugger<users_import_debugger>` page.
+For complete descriptions of all aspects of the :code:`Importer`, please see the tutorials and examples available at the :usecases:`Import debugger <users_import_debugger>` page.
 
 .. _IMPORTER_NULL_MODEL:
 
@@ -225,9 +225,9 @@ This situation can be caused by changing any of the import sources or their refe
 
     **API** :api:`Importer::flattenModel<Importer?fName=flattenModel>`
 
-    **How-to** :ref:`Resolve imports<actions_resolve_imports>`
+    **How-to** :howto:`Resolve imports <actions_resolve_imports>`
 
-    **Common users** :ref:`Import debugger<users_import_debugger>`
+    **Common use case** :usecases:`Import debugger <users_import_debugger>`
 
 .. _IMPORTER_MISSING_FILE:
 
@@ -242,9 +242,9 @@ You can check the specified locations using the :api:`ImportSource::url() functi
 
     **API** :api:`ImportSource::url()<ImportSource?fName=url>`, :api:`ImportSource::setUrl()<ImportSource?fName=setUrl>`
 
-    **Common users** :ref:`Import debugger<users_import_debugger>`
+    **Common use case** :usecases:`Import debugger <users_import_debugger>`
 
-    **Tutorial** :ref:`Hodgkin-Huxley Tutorial 2<createPotassiumChannelModel>`
+    **Tutorial** :hh_tutorial:`Hodgkin-Huxley Tutorial 2<2>`
 
 .. container:: nb
 
@@ -272,7 +272,7 @@ The issue's description will note the URL of the model in question.
 
     **API** :api:`ImportSource::importReference()<ImportSource?fName=importReference>`, :api:`ImportSource::setImportReference()<ImportSource?fName=setImportReference>`
 
-    **Common users** :ref:`Import debugger<users_import_debugger>`
+    **Common use case** :usecases:`Import debugger <users_import_debugger>`
 
 .. _IMPORTER_MISSING_UNITS:
 
@@ -295,7 +295,7 @@ The issue's description will note the URL of the model in question.
 
     **API** :api:`ImportSource::importReference()<ImportSource?fName=importReference>`, :api:`ImportSource::setImportReference()<ImportSource?fName=setImportReference>`
 
-    **Common users** :ref:`Import debugger<users_import_debugger>`
+    **Common use case** :usecases:`Import debugger <users_import_debugger>`
 
 Parser codes
 ============
